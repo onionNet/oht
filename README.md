@@ -1,3 +1,5 @@
+**OHT is being merged into Multiverse OS, a rootless hardware-virtualized nested VM environment as a way to cluster, handle friend-to-friend, and peer-to-peer communication. The major changes to the spec is the adoption of the scramble key ID system from Multiverse OS. Which leverages a ephemeral rotating hierarchal keytree that uses higher level keys to authorize lower level keys for a fixed amount of time while supporting a simple scripting system to make complex key interaction simple. Otherwise, most of the spec will remain the same. Previously the focus was to support as many transport channels as possible, in order to support mpath across the network but for now we will be focusing on HTTP/2 or QUIC in order to enable the immediate use of many existing technologies. A internal demo is being tested for early Multiverse OS implementation and it is working well, an alpha version will be released shortly, as it is a cornerstone of Multiverse OS.** 
+
 **Spec change in progress, new version will be released soon.**
 
 # oht v0.1.0
